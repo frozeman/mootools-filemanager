@@ -837,7 +837,6 @@ div.filemanager button.filemanager-serialize {
 
 div.filemanager-gallery {
 	position: absolute;
-	/* z-index: 1000; */
 	width: 798px;        /* 9 images wide + optional scrollbar; old 750px value was ~ 8.5 so pretty useless */
 	height: 144px;
 	display: none;
@@ -862,13 +861,12 @@ div.filemanager-gallery {
 
 div.filemanager-gallery div.howto {
 	position: absolute;
-	/* z-index: 1002; */
-	left: 50px;
-	top: 60px;
+	left: 30px;
+	top: 30px;
+	width: 35%;
 
-	color: #666;
-	font-size: 18px;
-	font-style: italic;
+	color: #929292;
+	font-size: 20px;
 }
 
 div.filemanager-gallery ul {
@@ -880,7 +878,7 @@ div.filemanager-gallery ul {
 	overflow: auto;
 	overflow-x: hidden;
 	border: 1px solid #bebebe;
-	background: #f2f2f2;
+	background: #f2f2f2 url('../Images/dropHere.png') no-repeat center center;
 }
 
 div.filemanager-gallery ul li {
